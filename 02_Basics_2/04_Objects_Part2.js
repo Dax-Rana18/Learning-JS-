@@ -59,7 +59,9 @@ console.log(tinderUser.hasOwnProperty('isLoggedOut'));
 
 //otehr methods in prototype 
 
+//!----------------------------------------------------- next video------------------------------------------------
 
+//! objects getting destructured 
 const course = {
     coursename: "js in hindi",
     price: "999",
@@ -68,17 +70,37 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor} =course;
+const {courseInstructor: instructor} = course //basically used for extarcting values like when we take values from react 
+//you can also shorten name with {courseInstructor to instructor}
 
 // console.log(courseInstructor);
 console.log(instructor);
 
+/*
+const navbar = ({company})=>{ //here destructuring is taking place :not taking new name but converting that property to that variable 
+
+}
+navbar(company="Dax");
+*/
+
+
+//! also arrays get destuctured : we will do later 
+
+
+
+//* concept of api :apka kaam kisi aur ke sir pr ,eg google login 
+//value used to come in xml structure but now come in json(object)
+
+//apis in similar format like below 
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
+// only for understanding
 
+//sometimes apis in arrays format, so we use array functions 
 [
     {},
     {},
