@@ -51,3 +51,5 @@ map()	    ✅ Yes	Transforming elements in an array
 reduce()	✅ No(returns single value)	Accumulating values (sum, product, etc.)
 
 */
+
+// /arrow function dont have this keyword why?
